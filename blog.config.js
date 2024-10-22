@@ -240,16 +240,16 @@ const BLOG = {
   POST_DISABLE_GALLERY_CLICK:
     process.env.NEXT_PUBLIC_POST_DISABLE_GALLERY_CLICK || false, // 画册视图禁止点击，方便在友链页面的画册插入链接
 
-  //   ********动态特效相关********
-  // 鼠标点击烟花特效
-  FIREWORKS: process.env.NEXT_PUBLIC_FIREWORKS || false, // 开关
-  // 烟花色彩，感谢 https://github.com/Vixcity 提交的色彩
-  FIREWORKS_COLOR: [
-    '255, 20, 97',
-    '24, 255, 146',
-    '90, 135, 255',
-    '251, 243, 140'
-  ],
+  // //   ********动态特效相关********
+  // // 鼠标点击烟花特效
+  // FIREWORKS: process.env.NEXT_PUBLIC_FIREWORKS || false, // 开关
+  // // 烟花色彩，感谢 https://github.com/Vixcity 提交的色彩
+  // FIREWORKS_COLOR: [
+  //   '255, 20, 97',
+  //   '24, 255, 146',
+  //   '90, 135, 255',
+  //   '251, 243, 140'
+  // ],
 
   // 鼠标跟随特效
   MOUSE_FOLLOW: process.env.NEXT_PUBLIC_MOUSE_FOLLOW || true, // 开关
@@ -259,7 +259,7 @@ const BLOG = {
   MOUSE_FOLLOW_EFFECT_COLOR: '#ef672a', // 鼠标点击特效颜色 #xxxxxx 或者 rgba(r,g,b,a)
 
   // 樱花飘落特效
-  SAKURA: process.env.NEXT_PUBLIC_SAKURA || false, // 开关
+  SAKURA: process.env.NEXT_PUBLIC_SAKURA || true, // 开关
   // 漂浮线段特效
   NEST: process.env.NEXT_PUBLIC_NEST || false, // 开关
   // 动态彩带特效
